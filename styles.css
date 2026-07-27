@@ -28,3 +28,261 @@ h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.05;letter-spacing:-.03
 .price{font-family:Fraunces;font-size:2rem}.small{font-size:.9rem}.muted{opacity:.72}.path-arrow{font-size:2rem;text-align:center;color:var(--sage)}
 @media(max-width:1050px){.site-nav{position:fixed;inset:0 0 0 auto;background:var(--forest);color:white;width:min(360px,88vw);padding:110px 32px;flex-direction:column;align-items:flex-start;transform:translateX(105%);transition:.25s}.site-nav.open{transform:none}.menu-toggle{display:block}.grid-2{grid-template-columns:1fr}.cards-4{grid-template-columns:repeat(2,1fr)}.cards-6{grid-template-columns:repeat(3,1fr)}.testimonial-grid{grid-template-columns:1fr 1fr}.footer-grid{grid-template-columns:1fr}.hero-shade{background:linear-gradient(90deg,rgba(251,250,246,.96),rgba(251,250,246,.55))}}
 @media(max-width:700px){.site-header{width:calc(100% - 28px)}.brand-lockup img{width:190px}.hero{min-height:720px;align-items:end}.hero-content{padding:140px 0 70px}.hero-shade{background:linear-gradient(180deg,rgba(251,250,246,.35),rgba(251,250,246,.98) 62%)}.hero-dark .hero-shade{background:linear-gradient(180deg,rgba(15,30,25,.2),rgba(15,30,25,.9) 65%)}.cards-2,.cards-3,.cards-4,.cards-6,.testimonial-grid,.facts{grid-template-columns:1fr}.split-copy{padding:55px 22px}.split-image{min-height:440px}.section{padding:70px 0}}
+
+
+/* ==========================================================
+   PREMIUM V2 OVERRIDES
+   The approved Beyond Surviving LP is the visual benchmark.
+   ========================================================== */
+
+:root {
+  --warm-sand: #DCC9AE;
+  --linen: #EAE2D6;
+  --sage: #A7B59A;
+  --ocean-mist: #B7C9C7;
+  --deep-forest: #1F332B;
+  --soft-clay: #C48A6A;
+  --charcoal: #2B2B2B;
+  --soft-white: #F7F5F1;
+  --paper: #FBF9F4;
+  --hairline: rgba(31,51,43,.14);
+}
+
+body {
+  background: var(--paper);
+  color: var(--deep-forest);
+  font-size: 18px;
+  line-height: 1.78;
+  text-rendering: optimizeLegibility;
+}
+.container { width: min(1180px, calc(100% - 40px)); }
+.narrow { width: min(820px, calc(100% - 40px)); }
+.section { padding: clamp(92px, 10vw, 150px) 0; }
+
+h1, h2, h3 {
+  font-weight: 430;
+  line-height: 1.01;
+  letter-spacing: -.043em;
+}
+h1 { font-size: clamp(3.35rem, 6.65vw, 6.65rem); }
+h2 { font-size: clamp(2.45rem, 4.65vw, 4.85rem); }
+h3 { font-size: clamp(1.55rem, 2.25vw, 2.25rem); }
+.eyebrow { letter-spacing: .24em; font-size: .8rem; }
+.lead {
+  max-width: 660px;
+  font-size: clamp(1.2rem, 1.9vw, 1.58rem);
+  line-height: 1.5;
+}
+
+/* Navigation */
+.site-header { width: min(1460px, calc(100% - 48px)); padding: 24px 0; }
+.brand-lockup img { width: 250px; max-height: 78px; }
+.site-nav { gap: clamp(.75rem, 1.45vw, 1.5rem); font-size: .72rem; }
+.nav-cta {
+  background: rgba(247,245,241,.78);
+  border: 1px solid rgba(31,51,43,.15);
+  backdrop-filter: blur(12px);
+}
+
+/* Buttons */
+.button { min-height: 54px; padding: .9rem 1.6rem; letter-spacing: .075em; }
+.button-primary, .primary {
+  background: var(--soft-clay);
+  color: var(--soft-white);
+  box-shadow: 0 14px 32px rgba(196,138,106,.27);
+}
+.button-outline, .secondary {
+  background: transparent;
+  border: 1px solid var(--soft-clay);
+  color: var(--soft-clay);
+}
+
+/* Cinematic heroes */
+body:not(.page-beyond) .hero {
+  min-height: min(900px, 98vh);
+  align-items: center;
+}
+body:not(.page-beyond) .hero-shade {
+  background:
+    linear-gradient(90deg, rgba(251,249,244,.97) 0%, rgba(251,249,244,.86) 36%, rgba(251,249,244,.30) 63%, rgba(251,249,244,.06) 100%),
+    linear-gradient(180deg, rgba(251,249,244,.15), rgba(251,249,244,.15));
+}
+body:not(.page-beyond) .hero-dark .hero-shade {
+  background:
+    linear-gradient(90deg, rgba(20,29,25,.77) 0%, rgba(20,29,25,.44) 48%, rgba(20,29,25,.08) 100%),
+    linear-gradient(180deg, rgba(20,29,25,.13), rgba(20,29,25,.30));
+}
+body:not(.page-beyond) .hero-content {
+  padding-top: 140px;
+  padding-bottom: 110px;
+  max-width: 1180px;
+}
+body:not(.page-beyond) .hero-content > * { max-width: 770px; }
+
+/* Editorial image and text sections */
+.grid-2 { min-height: 700px; }
+.split-image { min-height: 700px; }
+.split-copy { padding: clamp(68px, 8vw, 125px); }
+.split-copy h2 { margin-bottom: 1.55rem; }
+
+/* Refined cards */
+.card {
+  border: 1px solid var(--hairline);
+  border-radius: 26px;
+  padding: clamp(28px, 3vw, 39px);
+  background: rgba(251,249,244,.74);
+  box-shadow: 0 16px 45px rgba(31,51,43,.075);
+}
+.icon {
+  width: 56px;
+  height: 56px;
+  background: transparent;
+  border: 1px solid rgba(31,51,43,.24);
+  color: var(--soft-clay);
+}
+.facts { gap: 22px; margin: 2rem 0 2.4rem; }
+.facts div { border-top: 1px solid var(--hairline); }
+
+/* Editorial testimonials */
+.testimonial-grid { gap: clamp(28px, 3vw, 42px); }
+.testimonial {
+  min-height: 330px;
+  padding: 70px 31px 32px;
+  border-radius: 28px;
+  border: 1px solid var(--hairline);
+  background: rgba(251,249,244,.80);
+  box-shadow: 0 18px 48px rgba(31,51,43,.08);
+}
+.testimonial img {
+  top: -44px;
+  width: 88px;
+  height: 88px;
+  border: 8px solid var(--paper);
+}
+.testimonial blockquote { line-height: 1.72; }
+
+/* Homepage: more editorial, less like a card template */
+.page-home .hero-content { max-width: 880px; }
+.page-home .hero h1 { max-width: 820px; }
+.page-home .section:first-of-type h2 {
+  max-width: 760px;
+  margin-bottom: 72px;
+}
+.page-home .section:first-of-type .cards-4 {
+  gap: 0;
+  border-top: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+}
+.page-home .section:first-of-type .card {
+  min-height: 260px;
+  padding: 42px 32px;
+  border: 0;
+  border-right: 1px solid var(--hairline);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.page-home .section:first-of-type .card:last-child { border-right: 0; }
+.page-home .section:first-of-type .icon {
+  display: block;
+  width: auto;
+  height: auto;
+  border: 0;
+  font-size: 2.15rem;
+}
+.page-home .gradient-sage .cards-3 .card {
+  min-height: 370px;
+  display: flex;
+  flex-direction: column;
+}
+.page-home .gradient-sage .cards-3 .text-link { margin-top: auto; }
+
+/* Offer pages */
+.page-freedom .cards-2 .card {
+  min-height: 520px;
+  display: flex;
+  flex-direction: column;
+}
+.page-freedom .cards-2 .button { margin-top: auto; }
+.page-freedom .sage .card { background: rgba(247,245,241,.72); box-shadow: none; }
+
+.page-inner .hero h1 { max-width: 680px; }
+.page-inner .cards-4 .card { min-height: 250px; box-shadow: none; }
+.page-inner .cards-2 .testimonial { min-height: 370px; }
+
+.page-leadership .hero-content > * { max-width: 880px; }
+.page-leadership .hero h1 { font-size: clamp(3.1rem, 5.7vw, 6rem); }
+.page-leadership .cards-6 .card {
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  box-shadow: none;
+}
+.page-leadership .linen .cards-2 .card { min-height: 520px; }
+
+.page-assessment .hero { min-height: 800px; }
+.page-assessment .hero h1 { font-size: clamp(3.8rem, 7vw, 7.25rem); }
+.page-assessment .linen .card { min-height: 235px; box-shadow: none; }
+
+.page-meet .hero h1 {
+  max-width: 860px;
+  font-size: clamp(3.2rem, 6vw, 6.2rem);
+}
+.page-meet .section .narrow p { font-size: 1.12rem; line-height: 1.88; }
+
+/* Beyond Surviving integration */
+.page-beyond .site-header { color: var(--deep-forest); }
+.page-beyond .brand-lockup img { width: 245px; }
+.page-beyond .site-footer { margin-top: 0; }
+
+/* Soft reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity .72s ease, transform .72s ease;
+}
+.reveal.is-visible { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+}
+
+@media (max-width: 1080px) {
+  .grid-2 { grid-template-columns: 1fr; }
+  .split-image { min-height: 560px; }
+  .split-copy { padding: 72px 34px; }
+  .cards-4 { grid-template-columns: repeat(2, 1fr); }
+  .cards-6 { grid-template-columns: repeat(2, 1fr); }
+  .testimonial-grid { grid-template-columns: repeat(2, 1fr); }
+  .page-home .section:first-of-type .cards-4 { grid-template-columns: repeat(2, 1fr); }
+  .page-home .section:first-of-type .card:nth-child(2) { border-right: 0; }
+  .page-home .section:first-of-type .card:nth-child(-n+2) { border-bottom: 1px solid var(--hairline); }
+}
+
+@media (max-width: 720px) {
+  body { font-size: 16px; }
+  .brand-lockup img { width: 190px; }
+  body:not(.page-beyond) .hero {
+    min-height: 790px;
+    align-items: end;
+  }
+  body:not(.page-beyond) .hero-content {
+    padding: 145px 0 85px;
+    width: min(100% - 30px, 680px);
+  }
+  body:not(.page-beyond) .hero-shade {
+    background: linear-gradient(180deg, rgba(251,249,244,.30), rgba(251,249,244,.87) 54%, rgba(251,249,244,.99));
+  }
+  body:not(.page-beyond) .hero-dark .hero-shade {
+    background: linear-gradient(180deg, rgba(20,29,25,.12), rgba(20,29,25,.58) 54%, rgba(20,29,25,.92));
+  }
+  .section { padding: 78px 0; }
+  .cards-2, .cards-3, .cards-4, .cards-6, .testimonial-grid, .facts { grid-template-columns: 1fr; }
+  .split-image { min-height: 450px; }
+  .split-copy { padding: 60px 22px; }
+  .page-home .section:first-of-type .cards-4 { grid-template-columns: 1fr; }
+  .page-home .section:first-of-type .card {
+    border-right: 0;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .page-home .section:first-of-type .card:last-child { border-bottom: 0; }
+}

@@ -1,28 +1,9 @@
-# Blooming Soul Journeys — Flat GitHub Upload
+# Blooming Soul Journeys — Premium V2
 
-This version has **no folders**.
+Flat GitHub version with every file at the repository root.
 
-Upload every file in this folder together through:
+This iteration extends the approved Beyond Surviving visual language
+across the whole website through cinematic photography, editorial
+typography, generous spacing, restrained motion and page-specific rhythm.
 
-**GitHub repository → Add file → Upload files**
-
-The repository root should show:
-
-- index.html
-- beyond-surviving.html
-- the-freedom-within.html
-- inner-bloom.html
-- conscious-leadership.html
-- meet-roberta.html
-- how-fulfilled-are-you-really.html
-- privacy.html
-- terms.html
-- styles.css
-- script.js
-- all image files
-
-Then enable GitHub Pages:
-
-**Settings → Pages → Deploy from a branch → main → /(root)**
-
-The old Beyond Surviving repository can remain live while this full website is tested.
+Upload all unzipped files together to GitHub.
