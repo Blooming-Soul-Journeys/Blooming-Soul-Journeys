@@ -1,9 +1,9 @@
-# Blooming Soul Journeys — Premium V2
+# Blooming Soul Journeys — Homepage Benchmark
 
-Flat GitHub version with every file at the repository root.
+This phase contains:
+- a newly art-directed premium homepage for review
+- the exact approved Beyond Surviving HTML and CSS supplied by Roberta
+- the original Beyond Surviving images and accordion JavaScript
+- all files at repository root for easy GitHub browser upload
 
-This iteration extends the approved Beyond Surviving visual language
-across the whole website through cinematic photography, editorial
-typography, generous spacing, restrained motion and page-specific rhythm.
-
-Upload all unzipped files together to GitHub.
+The remaining pages are intentionally not rebuilt yet. The homepage should first be reviewed on desktop and mobile and used as the quality benchmark for the rest of the site.
