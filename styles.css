@@ -756,3 +756,63 @@ footer{padding:48px 0}
     font-size:clamp(2.25rem,10vw,3.25rem);
   }
 }
+
+
+/* =========================================================
+   V8 — Meet Roberta image replacement + soft fade into copy
+   ========================================================= */
+
+.meet-image{
+  position:relative;
+  overflow:hidden;
+}
+
+.meet-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center 48%;
+}
+
+.meet-image::after{
+  content:"";
+  position:absolute;
+  top:0;
+  right:-1px;
+  width:24%;
+  height:100%;
+  pointer-events:none;
+  background:linear-gradient(
+    to right,
+    rgba(215,225,210,0) 0%,
+    rgba(215,225,210,.34) 48%,
+    rgba(215,225,210,.76) 78%,
+    rgba(215,225,210,1) 100%
+  );
+}
+
+@media(max-width:1000px){
+  .meet-image::after{
+    top:auto;
+    right:0;
+    bottom:-1px;
+    width:100%;
+    height:24%;
+    background:linear-gradient(
+      to bottom,
+      rgba(215,225,210,0) 0%,
+      rgba(215,225,210,.38) 50%,
+      rgba(215,225,210,1) 100%
+    );
+  }
+}
+
+@media(max-width:650px){
+  .meet-image img{
+    object-position:center 44%;
+  }
+
+  .meet-image::after{
+    height:20%;
+  }
+}
