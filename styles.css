@@ -403,3 +403,87 @@ footer{padding:48px 0}
   .cinematic-quote{min-height:480px}
   .cinematic-quote-copy p{font-size:clamp(2rem,9vw,3.2rem)}
 }
+
+
+/* V5 correction: visibly narrower desktop sections, aligned to the annotated mock-up */
+.meet,
+.featured,
+.other-paths{
+  width:min(1040px,calc(100% - 64px));
+}
+
+.meet{
+  min-height:420px;
+}
+.meet-image{
+  min-height:420px;
+}
+.meet-copy{
+  padding:42px 48px;
+}
+
+.featured{
+  min-height:520px;
+}
+.featured-image{
+  min-height:520px;
+}
+.featured-copy{
+  padding:44px 48px;
+}
+
+.other-paths{
+  min-height:470px;
+}
+.other-paths-image{
+  min-height:470px;
+}
+.other-paths-copy{
+  padding:40px 46px;
+}
+
+/* Keep testimonial strip compact and clearly distinct */
+.featured-stories{
+  padding:72px 0 84px;
+}
+.featured-story-grid{
+  width:min(1040px,100%);
+  margin-inline:auto;
+}
+.featured-story-grid figure{
+  min-height:250px;
+}
+
+/* Stronger premium treatment for feature icons */
+.fact-icon{
+  color:var(--clay);
+  opacity:.9;
+}
+.fact-icon svg{
+  width:32px;
+  height:32px;
+  stroke-width:1.2;
+}
+.premium-facts .fact-item{
+  border-top-color:rgba(196,138,106,.35);
+}
+
+/* Ensure the cinematic quote is one clean standalone section */
+.cinematic-quote{
+  margin:0;
+}
+
+@media(max-width:1100px){
+  .meet,
+  .featured,
+  .other-paths{
+    width:calc(100% - 32px);
+  }
+}
+@media(max-width:1000px){
+  .meet,
+  .featured,
+  .other-paths{
+    width:100%;
+  }
+}

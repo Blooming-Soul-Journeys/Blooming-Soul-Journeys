@@ -1,17 +1,13 @@
-# Blooming Soul Journeys — Homepage Benchmark V4
+# Blooming Soul Journeys — Homepage Benchmark V5
 
-Built directly from the annotated Homepage Refining PDF.
+This corrects the V4 implementation:
 
-Included:
-- centered hero with approved copy
-- recognition section preserved
-- narrower Meet Roberta section
-- narrower Beyond Surviving feature with stronger invitation copy
-- women-only testimonials on Warm Sand
-- compact Other Paths section
-- cinematic forest quote section
-- Leadership section preserved
-- repeated final assessment section removed
-- footer with clickable Email, Instagram, Facebook, and LinkedIn icons
+- removed an accidentally duplicated Leadership section
+- added cache-busting to CSS and JavaScript for GitHub Pages
+- made Meet Roberta, Beyond Surviving, and Other Paths visibly narrower
+- tightened their vertical height to match the annotated mock-up
+- strengthened the premium icon treatment
+- kept the testimonials compact on Warm Sand
+- preserved the cinematic forest quote and footer social icons
 
-All files remain flat for GitHub browser upload.
+Upload every unzipped file and replace the existing files in the repository.
