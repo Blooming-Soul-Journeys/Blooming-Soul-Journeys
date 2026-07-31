@@ -1,11 +1,12 @@
-# Blooming Soul Journeys — Homepage Benchmark V2
+# Blooming Soul Journeys — Homepage Benchmark V3
 
-Updates:
-- transparent, tightly cropped and larger navigation logo
-- duplicate brand name removed above the hero question
-- ginkgo symbols replace the recognition numbers
-- Inner Bloom remains explicitly included in the ways-to-work-together section
-- selected beach image replaces the previous closing image
-- Beyond Surviving remains the exact supplied page with isolated CSS
+Changes requested:
+- Meet Roberta section made narrower and less vertically dominant
+- Beyond Surviving details now use four refined line icons
+- women-only testimonials placed directly below Beyond Surviving
+- Other Paths follows immediately and contains only The Freedom Within and Inner Bloom
+- the large homepage assessment section was removed
+- hero, navigation and final CTA now link directly to the free assessment
+- Beyond Surviving LP remains isolated and unchanged
 
-All files remain flat for GitHub browser upload.
+All files are flat for GitHub browser upload.
