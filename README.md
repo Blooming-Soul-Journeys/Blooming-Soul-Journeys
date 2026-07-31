@@ -1,12 +1,12 @@
-# Blooming Soul Journeys — Homepage Benchmark V6
+# Blooming Soul Journeys — Homepage Benchmark V7
 
-Corrections in this version:
-- removed the extra dark-green quote section completely
-- interpreted “narrower” correctly as shorter, not reduced content width
-- restored Meet Roberta, Beyond Surviving, and Other Paths to the normal page width
-- reduced their vertical height and internal spacing
-- turned the top navigation into a sticky translucent bar
-- added a subtle stronger background after scrolling
-- bumped CSS and JavaScript cache versions for GitHub Pages
+Only the Meet Roberta section was changed:
 
-Upload all unzipped files and replace the current repository files.
+- full browser width
+- approximately 505px tall on desktop
+- 44% image / 56% text split
+- typography and internal spacing matched to the supplied example
+- responsive stacking retained for tablet and mobile
+- cache version updated to V7
+
+Replace the existing files in GitHub and hard refresh after deployment.
