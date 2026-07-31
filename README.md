@@ -1,9 +1,11 @@
-# Blooming Soul Journeys — Homepage Benchmark
+# Blooming Soul Journeys — Homepage Benchmark V2
 
-This phase contains:
-- a newly art-directed premium homepage for review
-- the exact approved Beyond Surviving HTML and CSS supplied by Roberta
-- the original Beyond Surviving images and accordion JavaScript
-- all files at repository root for easy GitHub browser upload
+Updates:
+- transparent, tightly cropped and larger navigation logo
+- duplicate brand name removed above the hero question
+- ginkgo symbols replace the recognition numbers
+- Inner Bloom remains explicitly included in the ways-to-work-together section
+- selected beach image replaces the previous closing image
+- Beyond Surviving remains the exact supplied page with isolated CSS
 
-The remaining pages are intentionally not rebuilt yet. The homepage should first be reviewed on desktop and mobile and used as the quality benchmark for the rest of the site.
+All files remain flat for GitHub browser upload.
