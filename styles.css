@@ -816,3 +816,14 @@ footer{padding:48px 0}
     height:20%;
   }
 }
+
+
+/* V9 correction: use Roberta's exact uploaded faded image */
+.meet-image::after{
+  display:none !important;
+}
+
+.meet-image img{
+  object-fit:cover;
+  object-position:center center;
+}
