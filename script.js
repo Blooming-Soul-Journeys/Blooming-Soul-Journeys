@@ -9,3 +9,13 @@ const items=document.querySelectorAll('main>section:not(.hero), .stories figure'
 items.forEach(el=>el.classList.add('reveal'));
 const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.08});
 items.forEach(el=>observer.observe(el));
+
+
+const stickyHeader = document.querySelector('.site-header');
+if (stickyHeader) {
+  const updateHeader = () => {
+    stickyHeader.classList.toggle('scrolled', window.scrollY > 24);
+  };
+  updateHeader();
+  window.addEventListener('scroll', updateHeader, { passive: true });
+}

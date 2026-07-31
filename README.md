@@ -1,13 +1,12 @@
-# Blooming Soul Journeys — Homepage Benchmark V5
+# Blooming Soul Journeys — Homepage Benchmark V6
 
-This corrects the V4 implementation:
+Corrections in this version:
+- removed the extra dark-green quote section completely
+- interpreted “narrower” correctly as shorter, not reduced content width
+- restored Meet Roberta, Beyond Surviving, and Other Paths to the normal page width
+- reduced their vertical height and internal spacing
+- turned the top navigation into a sticky translucent bar
+- added a subtle stronger background after scrolling
+- bumped CSS and JavaScript cache versions for GitHub Pages
 
-- removed an accidentally duplicated Leadership section
-- added cache-busting to CSS and JavaScript for GitHub Pages
-- made Meet Roberta, Beyond Surviving, and Other Paths visibly narrower
-- tightened their vertical height to match the annotated mock-up
-- strengthened the premium icon treatment
-- kept the testimonials compact on Warm Sand
-- preserved the cinematic forest quote and footer social icons
-
-Upload every unzipped file and replace the existing files in the repository.
+Upload all unzipped files and replace the current repository files.
