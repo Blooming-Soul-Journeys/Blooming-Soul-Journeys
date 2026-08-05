@@ -1,7 +1,10 @@
-# Blooming Soul Journeys — Homepage Benchmark V9
+# Blooming Soul Journeys — Homepage Benchmark V10
 
-Correction:
-- uses the exact `meet-roberta-fade.png` image uploaded by Roberta
-- updates the Meet Roberta HTML reference to that PNG
-- disables the additional CSS fade to avoid applying the effect twice
-- bumps CSS and JavaScript cache versions to V9
+Changes:
+- removed “Featured group experience”
+- gave the copy more horizontal space
+- reduced the photo's share of the desktop layout
+- made the full section span edge to edge
+- moved the photo flush to the right edge
+- kept responsive stacking for tablet and mobile
+- bumped cache versions to V10
