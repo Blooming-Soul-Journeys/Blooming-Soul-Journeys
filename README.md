@@ -1,10 +1,11 @@
-# Blooming Soul Journeys — Homepage Benchmark V10
+# Blooming Soul Journeys — Homepage Benchmark V11
 
-Changes:
-- removed “Featured group experience”
-- gave the copy more horizontal space
-- reduced the photo's share of the desktop layout
-- made the full section span edge to edge
-- moved the photo flush to the right edge
-- kept responsive stacking for tablet and mobile
-- bumped cache versions to V10
+Changes to Other Paths:
+- removed “Continue your journey”
+- made the section span the full browser width
+- reduced the photo's share of the section
+- placed The Freedom Within and Inner Bloom side by side on desktop
+- reduced the overall section height
+- cropped more sky from the photo by shifting the image position downward
+- retained responsive stacking on smaller screens
+- bumped cache versions to V11
