@@ -1,11 +1,10 @@
-# Blooming Soul Journeys — Homepage Benchmark V15
+# Blooming Soul Journeys — Homepage Benchmark V16
 
-Beyond Surviving is now integrated into the main flat GitHub project:
+Beyond Surviving is now fully connected to the main website navigation:
 
-- homepage navigation links to `beyond-surviving.html`
-- homepage featured-offer button links to `beyond-surviving.html`
-- `beyond-surviving.html`, `beyond-surviving.css`, and `beyond-surviving.js` remain completely unchanged
-- all Beyond Surviving images and functionality remain in the same flat project
-- homepage cache references were bumped to V15
-
-Upload every unzipped file and replace the existing repository files.
+- the page remains at `beyond-surviving.html`, which is the normal structure for a multi-page website
+- the Beyond Surviving page now uses the same persistent navigation bar as the homepage
+- visitors can navigate back to Meet Roberta, Your Journey, Team Growth, Free Assessment, Contact, or Home
+- Beyond Surviving's page content, sections, text, images, and visual design remain unchanged
+- only its header/navigation and responsive mobile menu were added
+- cache versions were bumped to V16

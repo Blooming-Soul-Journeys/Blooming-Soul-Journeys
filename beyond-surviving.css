@@ -508,3 +508,142 @@ details p { padding: 0 28px 24px; margin: 0; }
   .fit .narrow > h2 { margin-bottom: 28px; }
   .pull-quote { font-size: clamp(1.45rem, 8vw, 2.2rem); margin-bottom: 1.8rem; }
 }
+
+/* =========================================================
+   V16 — Shared main-site navigation on Beyond Surviving
+   ========================================================= */
+
+.shared-header{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:1000;
+  width:100%;
+  max-width:none;
+  margin:0;
+  padding:14px clamp(20px,3vw,46px);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:1.5rem;
+  background:rgba(247,245,241,.92);
+  border-bottom:1px solid rgba(31,51,43,.12);
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+  box-shadow:0 8px 30px rgba(31,51,43,.06);
+}
+
+.shared-header .brand{
+  display:flex;
+  align-items:center;
+  flex-shrink:0;
+}
+
+.shared-header .brand img{
+  width:clamp(220px,15vw,300px);
+  max-height:66px;
+  object-fit:contain;
+  object-position:left center;
+}
+
+.shared-header .site-nav{
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap:clamp(14px,1.6vw,24px);
+}
+
+.shared-header .site-nav a{
+  color:var(--deep-forest);
+  text-decoration:none;
+  text-transform:uppercase;
+  letter-spacing:.07em;
+  font-family:"Source Sans 3",sans-serif;
+  font-size:.73rem;
+  font-weight:700;
+  white-space:nowrap;
+}
+
+.shared-header .site-nav a:hover,
+.shared-header .site-nav a[aria-current="page"]{
+  color:var(--soft-clay);
+}
+
+.shared-header .menu-toggle{
+  display:none;
+  width:42px;
+  height:42px;
+  padding:9px;
+  border:0;
+  background:transparent;
+  cursor:pointer;
+}
+
+.shared-header .menu-toggle span{
+  display:block;
+  height:2px;
+  margin:5px 0;
+  background:var(--deep-forest);
+}
+
+.hero{
+  padding-top:86px;
+}
+
+@media(max-width:1050px){
+  .shared-header{
+    padding:12px 18px;
+  }
+
+  .shared-header .brand img{
+    width:210px;
+    max-height:58px;
+  }
+
+  .shared-header .menu-toggle{
+    display:block;
+    position:relative;
+    z-index:1002;
+  }
+
+  .shared-header .site-nav{
+    position:fixed;
+    top:0;
+    right:0;
+    width:min(360px,88vw);
+    height:100vh;
+    padding:100px 28px 40px;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:flex-start;
+    gap:1.35rem;
+    background:rgba(247,245,241,.98);
+    box-shadow:-14px 0 36px rgba(31,51,43,.13);
+    transform:translateX(105%);
+    transition:transform .25s ease;
+  }
+
+  .shared-header .site-nav.open{
+    transform:translateX(0);
+  }
+
+  .shared-header .site-nav a{
+    font-size:.88rem;
+  }
+}
+
+@media(max-width:650px){
+  .shared-header{
+    min-height:64px;
+  }
+
+  .shared-header .brand img{
+    width:190px;
+    max-height:52px;
+  }
+
+  .hero{
+    padding-top:64px;
+  }
+}
