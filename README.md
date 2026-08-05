@@ -1,11 +1,9 @@
-# Blooming Soul Journeys — Homepage Benchmark V11
+# Blooming Soul Journeys — Homepage Benchmark V12
 
-Changes to Other Paths:
-- removed “Continue your journey”
-- made the section span the full browser width
-- reduced the photo's share of the section
-- placed The Freedom Within and Inner Bloom side by side on desktop
-- reduced the overall section height
-- cropped more sky from the photo by shifting the image position downward
-- retained responsive stacking on smaller screens
-- bumped cache versions to V11
+Change made:
+- kept Conscious Leadership & Team Growth on the homepage
+- reduced it from an oversized hero into a compact bridge section
+- desktop height is now approximately 350px
+- reduced heading, paragraph, button, and section spacing
+- preserved responsive behavior
+- bumped cache versions to V12
