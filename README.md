@@ -1,9 +1,10 @@
-# Blooming Soul Journeys — Homepage Benchmark V12
+# Blooming Soul Journeys — Homepage Benchmark V13
 
-Change made:
-- kept Conscious Leadership & Team Growth on the homepage
-- reduced it from an oversized hero into a compact bridge section
-- desktop height is now approximately 350px
-- reduced heading, paragraph, button, and section spacing
-- preserved responsive behavior
-- bumped cache versions to V12
+Changes:
+- made the forest quote section more cinematic with stronger image treatment, layered overlay, vignette, larger balanced typography, and subtle text shadow
+- reduced the footer height substantially
+- matched the footer logo's visual height to the header logo
+- aligned logo, footer copy, and social icons more cleanly
+- reduced footer heading and spacing
+- preserved responsive layouts
+- bumped cache versions to V13
