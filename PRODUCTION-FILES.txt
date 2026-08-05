@@ -1,0 +1,45 @@
+Blooming Soul Journeys production build V18
+
+Upload every file in this folder directly to the root of the GitHub repository.
+Do not upload the ZIP itself.
+
+beyond-home.jpg
+beyond-surviving.css
+beyond-surviving.html
+beyond-surviving.js
+conscious-leadership.html
+final-sea.jpeg
+footer-logo.png
+forest-path.jpg
+freedom-work.jpg
+ginkgo-icon.png
+hero-sunflowers.jpg
+home-hero.png
+home-meet.jpeg
+how-fulfilled-are-you-really.html
+index.html
+inner-bloom.html
+inner-hero.jpg
+inner-next.jpg
+leadership-hero.jpg
+legacy-pages.css
+legacy-pages.js
+logo-transparent.png
+magda.png
+meet-roberta-fade.png
+meet-roberta.html
+mihaela.png
+mountain-return.jpg
+privacy.html
+roberta-facilitator.jpg
+script.js
+sea-integration.jpg
+site-shell.css
+site-shell.js
+styles.css
+terms.html
+testimonial-andra.png
+testimonial-mesi.png
+testimonial-tanita.png
+the-freedom-within.html
+tree-touch.jpg
