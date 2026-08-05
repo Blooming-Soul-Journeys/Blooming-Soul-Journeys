@@ -1285,3 +1285,81 @@ footer{
     justify-content:flex-start;
   }
 }
+
+
+/* =========================================================
+   V14 — Footer logo correction + section colour separation
+   ========================================================= */
+
+/* Give Leadership its own lighter visual identity */
+.leadership{
+  background:
+    linear-gradient(135deg, rgba(234,226,214,.96), rgba(167,181,154,.88));
+  color:var(--forest);
+}
+
+.leadership .eyebrow{
+  color:var(--clay);
+}
+
+.leadership h2,
+.leadership p{
+  color:var(--forest);
+}
+
+.leadership .button{
+  background:var(--forest);
+  color:var(--white);
+  border-color:var(--forest);
+}
+
+.leadership .button:hover{
+  background:#29483d;
+  border-color:#29483d;
+}
+
+/* Keep footer as the deep grounding close */
+footer{
+  background:var(--forest);
+  color:var(--white);
+  padding:38px 0;
+}
+
+.footer-inner{
+  grid-template-columns:360px minmax(360px,1fr) auto;
+  gap:42px;
+}
+
+.footer-inner > img{
+  width:clamp(300px,22vw,390px);
+  max-height:96px;
+  object-fit:contain;
+  object-position:left center;
+}
+
+.footer-copy h3,
+.footer-copy p{
+  color:var(--white);
+}
+
+@media(max-width:1000px){
+  .footer-inner{
+    grid-template-columns:1fr auto;
+  }
+
+  .footer-inner > img{
+    width:320px;
+    max-height:88px;
+  }
+}
+
+@media(max-width:700px){
+  .footer-inner{
+    grid-template-columns:1fr;
+  }
+
+  .footer-inner > img{
+    width:min(320px,100%);
+    max-height:82px;
+  }
+}

@@ -1,10 +1,9 @@
-# Blooming Soul Journeys — Homepage Benchmark V13
+# Blooming Soul Journeys — Homepage Benchmark V14
 
 Changes:
-- made the forest quote section more cinematic with stronger image treatment, layered overlay, vignette, larger balanced typography, and subtle text shadow
-- reduced the footer height substantially
-- matched the footer logo's visual height to the header logo
-- aligned logo, footer copy, and social icons more cleanly
-- reduced footer heading and spacing
-- preserved responsive layouts
-- bumped cache versions to V13
+- replaced the tiny footer logo with the exact uploaded horizontal logo
+- increased the footer logo to a balanced desktop size
+- changed the Conscious Leadership section to a soft sage/linen background
+- kept the footer deep forest green so the two final sections no longer visually merge
+- updated button and text colours in Leadership for contrast
+- bumped cache versions to V14
