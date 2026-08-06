@@ -19,7 +19,8 @@
       <nav class="shared-site-nav" aria-label="Main navigation">
         <a href="meet-roberta.html"${activeClass('meet-roberta.html')}>Meet Roberta</a>
         <a href="beyond-surviving.html"${activeClass('beyond-surviving.html')}>Beyond Surviving</a>
-        <a href="index.html#journey"${activeClass('the-freedom-within.html', 'inner-bloom.html')}>Your Journey</a>
+        <a href="inner-bloom.html"${activeClass('inner-bloom.html')}>Inner Bloom</a>
+        <a href="the-freedom-within.html"${activeClass('the-freedom-within.html')}>The Freedom Within</a>
         <a href="conscious-leadership.html"${activeClass('conscious-leadership.html')}>Team Growth</a>
         <a href="${ASSESSMENT_URL}" target="_blank" rel="noopener"${activeClass('how-fulfilled-are-you-really.html')}>Free Assessment</a>
         <a href="#contact">Contact</a>

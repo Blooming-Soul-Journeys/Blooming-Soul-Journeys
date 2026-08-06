@@ -1,8 +1,9 @@
-Blooming Soul Journeys production build V18
+Blooming Soul Journeys production build V19
 
 Upload every file in this folder directly to the root of the GitHub repository.
 Do not upload the ZIP itself.
 
+PRODUCTION-FILES.txt
 beyond-home.jpg
 beyond-surviving.css
 beyond-surviving.html
