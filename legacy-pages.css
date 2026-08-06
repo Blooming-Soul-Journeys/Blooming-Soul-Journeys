@@ -256,3 +256,137 @@ h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.05;letter-spacing:-.03
     border-top:0;
   }
 }
+
+
+/* =========================================================
+   V21 — Inner Bloom simplified recognition + bubble cards
+   ========================================================= */
+
+/* Recognition: text only */
+.inner-recognition-grid article{
+  padding:12px 34px 4px;
+}
+
+.inner-recognition-grid p{
+  font-size:1rem;
+  line-height:1.52;
+}
+
+.inner-recognition-grid img{
+  display:none !important;
+}
+
+/* Experience: premium rounded cards */
+.inner-experience{
+  background:
+    radial-gradient(circle at 92% 18%,rgba(167,181,154,.09),transparent 30%),
+    linear-gradient(135deg,#FAF8F4 0%,#F3EEE6 100%);
+}
+
+.inner-experience-inner{
+  width:min(1220px,calc(100% - 56px));
+  padding:46px 0 58px;
+}
+
+.inner-experience-line{
+  margin-bottom:30px;
+}
+
+.inner-experience-grid{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:26px;
+}
+
+.inner-experience-grid article{
+  border:0;
+}
+
+.inner-experience-card{
+  min-height:330px;
+  padding:34px 30px 32px;
+  border:1px solid rgba(31,51,43,.10);
+  border-radius:28px;
+  background:rgba(247,245,241,.94);
+  box-shadow:
+    0 18px 38px rgba(31,51,43,.08),
+    inset 0 1px 0 rgba(255,255,255,.75);
+  text-align:left;
+  transition:transform .2s ease,box-shadow .2s ease;
+}
+
+.inner-experience-card:hover{
+  transform:translateY(-4px);
+  box-shadow:
+    0 24px 46px rgba(31,51,43,.11),
+    inset 0 1px 0 rgba(255,255,255,.78);
+}
+
+.inner-card-ginkgo{
+  display:block;
+  width:54px;
+  height:54px;
+  margin:0 0 24px;
+  object-fit:contain;
+  opacity:.82;
+  filter:sepia(.25) saturate(.75);
+}
+
+.inner-experience-card h3{
+  margin:0 0 14px;
+  color:#1F332B;
+  font-family:Fraunces,Georgia,serif;
+  font-size:clamp(1.6rem,2vw,2.15rem);
+  font-weight:400;
+  line-height:1.03;
+}
+
+.inner-experience-card p{
+  margin:0;
+  color:#2B2B2B;
+  font-family:Lora,Georgia,serif;
+  font-size:1rem;
+  line-height:1.72;
+}
+
+.inner-experience-icon{
+  display:none !important;
+}
+
+@media(max-width:1000px){
+  .inner-experience-grid{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .inner-experience-card{
+    min-height:300px;
+  }
+}
+
+@media(max-width:650px){
+  .inner-recognition-grid article{
+    padding:20px 8px 0;
+  }
+
+  .inner-experience-inner{
+    width:min(100% - 34px,620px);
+    padding:42px 0 48px;
+  }
+
+  .inner-experience-grid{
+    grid-template-columns:1fr;
+    gap:18px;
+  }
+
+  .inner-experience-card{
+    min-height:auto;
+    padding:30px 26px 28px;
+    border-top:1px solid rgba(31,51,43,.10);
+  }
+
+  .inner-card-ginkgo{
+    width:48px;
+    height:48px;
+    margin-bottom:20px;
+  }
+}

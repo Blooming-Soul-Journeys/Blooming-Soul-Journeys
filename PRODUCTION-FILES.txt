@@ -1,6 +1,9 @@
-Blooming Soul Journeys production build V20
+Blooming Soul Journeys production build V21
 
-Inner Bloom update: recognition and experience sections.
+Inner Bloom update:
+- removed ginkgo icons from the recognition section
+- rebuilt the experience section as rounded premium cards
+- placed the ginkgo icon inside each card
 
 PRODUCTION-FILES.txt
 beyond-home.jpg
