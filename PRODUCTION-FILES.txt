@@ -1,10 +1,9 @@
-Blooming Soul Journeys production build V25
+Blooming Soul Journeys production build V26
 
 Freedom Within update:
-- replaced hero with the newer wider/shorter sea image
-- reduced hero height
-- kept the lighter left-side readability gradient
-- preserved the refined typography from V24
+- preserved the oversized editorial headline style
+- refined hero hierarchy, spacing, and gradient
+- moved “You might be here if...” directly under the hero
 
 PRODUCTION-FILES.txt
 beyond-home.jpg
