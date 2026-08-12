@@ -1,9 +1,9 @@
-Blooming Soul Journeys production build V21
+Blooming Soul Journeys production build V22
 
-Inner Bloom update:
-- removed ginkgo icons from the recognition section
-- rebuilt the experience section as rounded premium cards
-- placed the ginkgo icon inside each card
+Freedom Within update:
+- replaced the hero with the supplied sea image
+- kept “Remember who you are.” on one line on desktop/tablet
+- refined hero sizing and responsive crop
 
 PRODUCTION-FILES.txt
 beyond-home.jpg
@@ -14,6 +14,7 @@ conscious-leadership.html
 final-sea.jpeg
 footer-logo.png
 forest-path.jpg
+freedom-hero-v22.png
 freedom-work.jpg
 ginkgo-icon.png
 hero-sunflowers.jpg
