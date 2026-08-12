@@ -1,9 +1,10 @@
-Blooming Soul Journeys production build V22
+Blooming Soul Journeys production build V25
 
 Freedom Within update:
-- replaced the hero with the supplied sea image
-- kept “Remember who you are.” on one line on desktop/tablet
-- refined hero sizing and responsive crop
+- replaced hero with the newer wider/shorter sea image
+- reduced hero height
+- kept the lighter left-side readability gradient
+- preserved the refined typography from V24
 
 PRODUCTION-FILES.txt
 beyond-home.jpg
@@ -15,6 +16,8 @@ final-sea.jpeg
 footer-logo.png
 forest-path.jpg
 freedom-hero-v22.png
+freedom-hero-v23.png
+freedom-hero-v25.png
 freedom-work.jpg
 ginkgo-icon.png
 hero-sunflowers.jpg

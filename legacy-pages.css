@@ -570,3 +570,100 @@ h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.05;letter-spacing:-.03
   .freedom-hero-v22 .hero-shade{background:linear-gradient(180deg,rgba(247,245,241,.02) 0%,rgba(247,245,241,.18) 43%,rgba(247,245,241,.92) 72%,rgba(247,245,241,.98) 100%)}
   .freedom-title-second{font-size:.72em}
 }
+
+/* V24 — stronger Freedom Within hero readability */
+@media(min-width:701px){
+  .freedom-hero-v22 .hero-shade{
+    background:linear-gradient(90deg,
+      rgba(247,245,241,.96) 0%,
+      rgba(247,245,241,.90) 27%,
+      rgba(247,245,241,.68) 43%,
+      rgba(247,245,241,.22) 58%,
+      rgba(247,245,241,0) 70%);
+  }
+  .freedom-hero-v22 .hero-content{
+    max-width:calc(100% - 120px);
+  }
+  .freedom-hero-v22 h1{
+    text-shadow:0 1px 0 rgba(247,245,241,.28);
+  }
+  .freedom-hero-v22 .lead{
+    color:#1F332B;
+    font-weight:500;
+    max-width:680px;
+  }
+}
+
+
+/* =========================================================
+   V25 — Freedom Within hero crop refinement
+   Wider/shorter supplied sea image, lighter treatment
+   ========================================================= */
+
+.freedom-hero-v22{
+  min-height:560px;
+}
+
+.freedom-hero-v22 .hero-bg{
+  object-position:center 52%;
+}
+
+/* Preserve the new image's spaciousness; just enough warmth
+   on the left to protect readability without masking the sea. */
+.freedom-hero-v22 .hero-shade{
+  background:
+    linear-gradient(
+      90deg,
+      rgba(247,245,241,.68) 0%,
+      rgba(247,245,241,.52) 23%,
+      rgba(247,245,241,.28) 38%,
+      rgba(247,245,241,.08) 51%,
+      rgba(247,245,241,0) 64%
+    );
+}
+
+.freedom-hero-v22 .hero-content{
+  padding-top:58px;
+}
+
+.freedom-hero-v22 h1{
+  font-size:clamp(3.2rem,4.7vw,5.2rem);
+}
+
+.freedom-hero-v22 .lead{
+  max-width:600px;
+  color:#1F332B;
+  font-size:clamp(1rem,1.35vw,1.2rem);
+  line-height:1.55;
+}
+
+@media(max-width:900px){
+  .freedom-hero-v22{
+    min-height:540px;
+  }
+
+  .freedom-hero-v22 .hero-bg{
+    object-position:62% 52%;
+  }
+}
+
+@media(max-width:700px){
+  .freedom-hero-v22{
+    min-height:660px;
+  }
+
+  .freedom-hero-v22 .hero-bg{
+    object-position:70% center;
+  }
+
+  .freedom-hero-v22 .hero-shade{
+    background:
+      linear-gradient(
+        180deg,
+        rgba(247,245,241,.02) 0%,
+        rgba(247,245,241,.18) 42%,
+        rgba(247,245,241,.90) 72%,
+        rgba(247,245,241,.98) 100%
+      );
+  }
+}
