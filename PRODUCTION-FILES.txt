@@ -1,9 +1,11 @@
-Blooming Soul Journeys production build V26
+Blooming Soul Journeys production build V27
 
 Freedom Within update:
-- preserved the oversized editorial headline style
-- refined hero hierarchy, spacing, and gradient
-- moved “You might be here if...” directly under the hero
+- moved the core philosophy section directly under the hero
+- redesigned it as a premium two-column editorial block
+- added a subtle ginkgo divider and tonal sage/linen depth
+- placed “You might be here if...” directly underneath
+- simplified the recognition section for a cleaner transition
 
 PRODUCTION-FILES.txt
 beyond-home.jpg
