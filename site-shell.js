@@ -20,9 +20,9 @@
         <a href="meet-roberta.html"${activeClass('meet-roberta.html')}>Meet Roberta</a>
         <a href="inner-bloom.html"${activeClass('inner-bloom.html')}>Inner Bloom</a>
         <a href="the-freedom-within.html"${activeClass('the-freedom-within.html')}>Your Way</a>
-        <a class="nav-secondary" href="conscious-leadership.html"${activeClass('conscious-leadership.html')}>For Organisations</a>
         <a href="${ASSESSMENT_URL}" target="_blank" rel="noopener"${activeClass('how-fulfilled-are-you-really.html')}>Free Assessment</a>
         <a href="#contact">Contact</a>
+        <a class="nav-secondary" href="conscious-leadership.html"${activeClass('conscious-leadership.html')}>For Organisations</a>
       </nav>
     </header>
   `;
